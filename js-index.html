@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="myStyles.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+
+		//using HTML tags
+		
+		//this is a var declare and value assigned
+		var n;
+		var birthYear;
+		n = prompt("What's your name");
+		birthYear = parseInt(prompt("What year you were born"));
+		//Checking the eligiblity 
+		if(2021-birthYear > 18){
+			alert("Hi " + n + ". You are allowed to apply for PPSN. Please refer to page 2");
+		}
+		else{
+			alert("Hi " + n + ". You are not allowed to apply for PPSN. Please try again later" );
+		}
+		
+	</script>
+  </head>
+  <body>
+	<h1 class="p1">Please click on page 2 for more details</h1>
+	<a class="p1" href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>
